@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Argent Bank - Home Page</title>
-    <link rel="stylesheet" href="./css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
+const User = ()=>{
+  return(
+  <>
     <nav class="main-nav">
       <a class="main-nav-logo" href="./index.html">
         <img
           class="main-nav-logo-image"
-          src="/img/argentBankLogo.png"
+          src="./img/argentBankLogo.png"
           alt="Argent Bank Logo"
         />
         <h1 class="sr-only">Argent Bank</h1>
@@ -71,5 +61,7 @@
     <footer class="footer">
       <p class="footer-text">Copyright 2020 Argent Bank</p>
     </footer>
-  </body>
-</html>
+  </>)
+}
+
+export default User
